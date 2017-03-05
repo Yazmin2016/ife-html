@@ -1,0 +1,23 @@
+.container{
+    width:1282px;
+    margin: 0 auto;
+    background-color:#dedede;
+}
+.lf{
+    float: left;
+}
+.rf{
+    float: right;
+}
+/**
+* 撑开浮动元素的父元素
+*/
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
